@@ -65,7 +65,7 @@ const EventSidebar = ({event}: Props): React$Element<'div'> => {
             <p className="event-art-note" style={{textAlign: 'left'}}>
               {eventArtPresence === 'present' ? (
                 <>
-                  {l('No front event art available.')}
+                  {l('No poster art available.')}
                   <br />
                   <a href={entityHref(event, 'event-art')}>
                     {l('View all artwork')}

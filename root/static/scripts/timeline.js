@@ -29,7 +29,7 @@ const defaultLines = [
   'count.event',
   'count.event.art',
   'count.event.has_art',
-  'count.event.has_front_art',
+  'count.event.has_poster_art',
   'count.instrument',
   'count.label',
   'count.medium',

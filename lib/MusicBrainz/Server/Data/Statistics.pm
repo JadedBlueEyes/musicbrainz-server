@@ -402,8 +402,8 @@ my %stats = (
         DESC => 'Count of events with event art',
         SQL => 'SELECT COUNT(distinct event) FROM event_art_archive.event_art',
     },
-    'count.event.has_front_art' => {
-        DESC => 'Count of events with front event art',
+    'count.event.has_poster_art' => {
+        DESC => 'Count of events with poster art',
         SQL => 'SELECT COUNT(distinct event) FROM event_art_archive.event_art ea
                   JOIN event_art_archive.event_art_type eat ON ea.id = eat.id
                 WHERE eat.type_id = 1',

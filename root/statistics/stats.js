@@ -445,10 +445,10 @@ const stats = {
     color: '#dd2200',
     label: l_statistics('Events with event art'),
   },
-  'count.event.has_front_art': {
+  'count.event.has_poster_art': {
     category: 'event-art',
     color: '#22dd00',
-    label: l_statistics('Events with front event art'),
+    label: l_statistics('Events with poster art'),
   },
   'count.event.type.null': {
     category: 'event-types',
