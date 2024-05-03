@@ -24,17 +24,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MusicBrainz\n"
-"PO-Revision-Date: 2024-05-02 14:42+0000\n"
-"Last-Translator: reosarevok <reosarevok@users.noreply.translations."
-"metabrainz.org>\n"
+"PO-Revision-Date: 2024-05-03 14:42+0000\n"
+"Last-Translator: reosarevok <reosarevok@users.noreply.translations.metabrainz"
+".org>\n"
 "Language-Team: Spanish <https://translations.metabrainz.org/projects/"
 "musicbrainz/relationship-types/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
-"0) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
 "X-Generator: Weblate 5.5.2\n"
 
 #: DB:link_attribute_type/description:1355
@@ -2859,6 +2859,9 @@ msgid ""
 "community project dedicated to cataloguing the music of video games and "
 "anime."
 msgstr ""
+"Indica la página en <a href=\"http://vgmdb.net/\">VGMdb</a> para la "
+"película, serie o juego de la que esta obra es la banda sonora. VGMdb es un "
+"proyecto comunitario para catalogar música de videojuegos y de anime."
 
 #: DB:link_type/description:843
 msgid ""
@@ -3686,6 +3689,9 @@ msgid ""
 "href=\"http://vgmdb.net/\">VGMdb</a>. VGMdb is a community project dedicated "
 "to cataloguing the music of video games and anime."
 msgstr ""
+"Indica la página en <a href=\"http://vgmdb.net/\">VGMdb</a> para esta "
+"discográfica. VGMdb es un proyecto comunitario para catalogar música de "
+"videojuegos y de anime."
 
 #: DB:link_type/description:838
 msgid ""
@@ -3698,6 +3704,9 @@ msgid ""
 "page at <a href=\"http://vgmdb.net/\">VGMdb</a>. VGMdb is a community "
 "project dedicated to cataloguing the music of video games and anime."
 msgstr ""
+"Indica la página en <a href=\"http://vgmdb.net/\">VGMdb</a> para este lugar ("
+"normalmente un estudio). VGMdb es un proyecto comunitario para catalogar "
+"música de videojuegos y de anime."
 
 #: DB:link_type/description:861
 msgid ""
@@ -3726,18 +3735,24 @@ msgid ""
 "href=\"http://vgmdb.net/\">VGMdb</a>. VGMdb is a community project dedicated "
 "to cataloguing the music of video games and anime."
 msgstr ""
+"Indica la página en <a href=\"http://vgmdb.net/\">VGMdb</a> para esta "
+"publicación. VGMdb es un proyecto comunitario para catalogar música de "
+"videojuegos y de anime."
 
 #: DB:link_type/description:938
 msgid ""
 "This relationship type links a series (like a festival) to its corresponding "
 "page at setlist.fm."
 msgstr ""
+"Indica la página en setlist.fm para esta serie (normalmente un festival)."
 
 #: DB:link_type/description:1192
 msgid ""
 "This relationship type links an artist (usually a visual artist) to their "
 "art gallery page(s), such as DeviantArt or pixiv."
 msgstr ""
+"Enlaza un artista (normalmente un artista plástico) a una galería de arte "
+"virtual como DeviantArt o pixiv."
 
 #: DB:link_type/description:191
 msgid ""
@@ -3745,6 +3760,9 @@ msgid ""
 "href=\"http://vgmdb.net/\">VGMdb</a>. VGMdb is a community project dedicated "
 "to cataloguing the music of video games and anime."
 msgstr ""
+"Indica la página en <a href=\"http://vgmdb.net/\">VGMdb</a> para este "
+"artista. VGMdb es un proyecto comunitario para catalogar música de "
+"videojuegos y de anime."
 
 #: DB:link_type/description:862
 msgid ""
@@ -3792,28 +3810,31 @@ msgid ""
 "href=\"http://vgmdb.net/\">VGMdb</a>. VGMdb is a community project dedicated "
 "to cataloguing the music of video games and anime."
 msgstr ""
+"Indica la página en <a href=\"http://vgmdb.net/\">VGMdb</a> para este "
+"evento. VGMdb es un proyecto comunitario para catalogar música de "
+"videojuegos y de anime."
 
 #: DB:link_type/description:860
 msgid ""
 "This relationship type links an event to its corresponding page at "
 "Bandsintown."
-msgstr ""
+msgstr "Indica la página en Bandsintown para este evento."
 
 #: DB:link_type/description:839
 msgid ""
 "This relationship type links an event to its corresponding page at Last.fm."
-msgstr ""
+msgstr "Indica la página en Last.fm para este evento."
 
 #: DB:link_type/description:786
 msgid ""
 "This relationship type links an event to its corresponding page at Songkick."
-msgstr ""
+msgstr "Indica la página en Songkick para este evento."
 
 #: DB:link_type/description:811
 msgid ""
 "This relationship type links an event to its corresponding page at setlist."
 "fm."
-msgstr ""
+msgstr "Indica la página en setlist.fm para este evento."
 
 #: DB:link_type/description:1088
 msgid "This relationship type links genres to the areas they originate from."
@@ -4041,7 +4062,7 @@ msgstr "Wikidata"
 #: DB:link_type/reverse_link_phrase:594 DB:link_type/reverse_link_phrase:749
 #: DB:link_type/reverse_link_phrase:733 DB:link_type/reverse_link_phrase:358
 msgid "Wikidata page for"
-msgstr "Página de Wikidata para"
+msgstr "página de Wikidata para"
 
 #: DB:link_type/link_phrase:179 DB:link_type/link_phrase:595
 #: DB:link_type/link_phrase:355 DB:link_type/link_phrase:744
@@ -4724,7 +4745,7 @@ msgstr ""
 #: DB:link_type/link_phrase:907 DB:link_type/link_phrase:910
 #: DB:link_type/reverse_link_phrase:908
 msgid "crowdfunding page"
-msgstr ""
+msgstr "página de micromecenazgo"
 
 #: DB:link_type/link_phrase:908 DB:link_type/reverse_link_phrase:904
 #: DB:link_type/reverse_link_phrase:909 DB:link_type/reverse_link_phrase:903
@@ -4732,7 +4753,7 @@ msgstr ""
 #: DB:link_type/reverse_link_phrase:902 DB:link_type/reverse_link_phrase:907
 #: DB:link_type/reverse_link_phrase:910
 msgid "crowdfunding page for"
-msgstr ""
+msgstr "página de micromecenazgo para"
 
 #: DB:link_type/long_link_phrase:969
 msgid "cut the lacquer for"
@@ -4801,11 +4822,11 @@ msgstr ""
 
 #: DB:link_type/name:184
 msgid "discography page"
-msgstr ""
+msgstr "página de discografía"
 
 #: DB:link_type/reverse_link_phrase:184
 msgid "discography page for"
-msgstr "página de discografía de"
+msgstr "página de discografía para"
 
 #: DB:link_type/link_phrase:184
 msgid "discography pages"
@@ -4859,11 +4880,11 @@ msgstr "descargar gratis"
 #: DB:link_type/reverse_link_phrase:959 DB:link_type/reverse_link_phrase:254
 #: DB:link_type/reverse_link_phrase:74 DB:link_type/reverse_link_phrase:176
 msgid "download purchase page for"
-msgstr "página donde comprar para descarga"
+msgstr "página de descarga de pago para"
 
 #: DB:link_type/link_phrase:912
 msgid "download purchase page for the score of"
-msgstr ""
+msgstr "página de descarga de pago para la partitura de"
 
 #: DB:link_type/reverse_link_phrase:274
 msgid "download score for free"
@@ -4984,18 +5005,18 @@ msgstr "ejecutivo"
 #: DB:link_type/reverse_link_phrase:172 DB:link_type/reverse_link_phrase:1189
 #: DB:link_type/reverse_link_phrase:1190 DB:link_type/reverse_link_phrase:1191
 msgid "fan page for"
-msgstr "Página para fans"
+msgstr "página de fans para"
 
 #: DB:link_type/link_phrase:214 DB:link_type/link_phrase:172
 #: DB:link_type/link_phrase:1189 DB:link_type/link_phrase:1190
 #: DB:link_type/link_phrase:1191 DB:link_type/reverse_link_phrase:1188
 msgid "fan pages"
-msgstr "Página de fans"
+msgstr "páginas de fans"
 
 #: DB:link_type/name:214 DB:link_type/name:172 DB:link_type/name:1189
 #: DB:link_type/name:1190 DB:link_type/name:1188 DB:link_type/name:1191
 msgid "fanpage"
-msgstr ""
+msgstr "página de fans"
 
 #: DB:link_type/reverse_link_phrase:1011 DB:link_type/reverse_link_phrase:1012
 msgid "field recordings"
@@ -5040,19 +5061,19 @@ msgstr "fundadores"
 #: DB:link_type/reverse_link_phrase:958 DB:link_type/reverse_link_phrase:75
 #: DB:link_type/reverse_link_phrase:177 DB:link_type/reverse_link_phrase:255
 msgid "free download page for"
-msgstr "página donde descargar gratuitamente"
+msgstr "página de descarga gratuita para"
 
 #: DB:link_type/link_phrase:274
 msgid "free download page for the score of"
-msgstr ""
+msgstr "página de descarga gratuita para la partitura de"
 
 #: DB:link_type/reverse_link_phrase:997 DB:link_type/reverse_link_phrase:194
 msgid "free music streaming page for"
-msgstr "página de transmisión gratuita de música de"
+msgstr "página de streaming gratuito para"
 
 #: DB:link_type/reverse_link_phrase:268 DB:link_type/reverse_link_phrase:85
 msgid "free music {video} streaming page for"
-msgstr "página de streaming gratuito {video:del vídeo|de}"
+msgstr "página de streaming gratuito para {video:el vídeo}"
 
 #: DB:link_type/name:997 DB:link_type/name:268 DB:link_type/name:85
 #: DB:link_type/name:194
@@ -5176,7 +5197,7 @@ msgstr "tiene la ASIN de Amazon"
 
 #: DB:link_type/long_link_phrase:1131 DB:link_type/long_link_phrase:1130
 msgid "has Apple Music page at"
-msgstr ""
+msgstr "tiene una página en Apple Music en"
 
 #: DB:link_type/long_link_phrase:1092 DB:link_type/long_link_phrase:718
 #: DB:link_type/long_link_phrase:719
@@ -5185,7 +5206,7 @@ msgstr "tiene una página en Bandcamp en"
 
 #: DB:link_type/long_link_phrase:919
 msgid "has CD Baby page at"
-msgstr ""
+msgstr "tiene una página en CD Baby en"
 
 #: DB:link_type/long_link_phrase:311 DB:link_type/long_link_phrase:310
 #: DB:link_type/long_link_phrase:920 DB:link_type/long_link_phrase:1001
@@ -5213,7 +5234,7 @@ msgstr "tiene una página en BookBrainz en"
 
 #: DB:link_type/long_link_phrase:981
 msgid "has a CPDL page at"
-msgstr ""
+msgstr "tiene una página en CPDL en"
 
 #: DB:link_type/long_link_phrase:1089 DB:link_type/long_link_phrase:180
 #: DB:link_type/long_link_phrase:76 DB:link_type/long_link_phrase:217
@@ -5243,7 +5264,7 @@ msgstr "tiene una página en PureVolume en"
 #: DB:link_type/long_link_phrase:308 DB:link_type/long_link_phrase:976
 #: DB:link_type/long_link_phrase:977 DB:link_type/long_link_phrase:307
 msgid "has a SecondHandSongs page at"
-msgstr "página en SecondHandSongs en"
+msgstr "tiene una página en SecondHandSongs en"
 
 #: DB:link_type/long_link_phrase:786 DB:link_type/long_link_phrase:785
 #: DB:link_type/long_link_phrase:787
@@ -5298,7 +5319,7 @@ msgstr "tuvo un catalogo de discos en"
 #: DB:link_type/long_link_phrase:906 DB:link_type/long_link_phrase:902
 #: DB:link_type/long_link_phrase:907 DB:link_type/long_link_phrase:910
 msgid "has a crowdfunding page at"
-msgstr ""
+msgstr "tiene una página de micromecenazgo en"
 
 #: DB:link_type/long_link_phrase:288 DB:link_type/long_link_phrase:1169
 msgid "has a discography entry at"
@@ -5306,7 +5327,7 @@ msgstr ""
 
 #: DB:link_type/long_link_phrase:184
 msgid "has a discography page at"
-msgstr ""
+msgstr "tiene una página de discografía en"
 
 #: DB:link_type/long_link_phrase:214 DB:link_type/long_link_phrase:172
 #: DB:link_type/long_link_phrase:1189 DB:link_type/long_link_phrase:1190
@@ -5373,7 +5394,7 @@ msgstr "tiene un sitio web independiente en"
 #: DB:link_type/long_link_phrase:1195 DB:link_type/long_link_phrase:1196
 #: DB:link_type/long_link_phrase:1197
 msgid "has a ticketing page at"
-msgstr ""
+msgstr "tiene una página de compra de entradas en"
 
 #: DB:link_type/long_link_phrase:755 DB:link_type/long_link_phrase:284
 #: DB:link_type/long_link_phrase:283 DB:link_type/long_link_phrase:285
@@ -5388,7 +5409,7 @@ msgstr "tiene una página en IMDb en"
 
 #: DB:link_type/long_link_phrase:754
 msgid "has an IMSLP page at"
-msgstr ""
+msgstr "tiene una página en IMSLP en"
 
 #: DB:link_type/long_link_phrase:1192
 msgid "has an art gallery at"
@@ -5565,11 +5586,11 @@ msgstr ""
 
 #: DB:link_type/link_phrase:984 DB:link_type/link_phrase:211
 msgid "history page"
-msgstr "historial"
+msgstr "página de historia"
 
 #: DB:link_type/reverse_link_phrase:984 DB:link_type/reverse_link_phrase:211
 msgid "history page for"
-msgstr ""
+msgstr "página de historia para"
 
 #: DB:link_type/name:984 DB:link_type/name:211
 msgid "history site"
@@ -5752,7 +5773,7 @@ msgstr "es un medley de"
 
 #: DB:link_type/long_link_phrase:730
 msgid "is a page in a database for"
-msgstr "página en una base de datos para"
+msgstr "es una página en una base de datos para"
 
 #: DB:link_type/long_link_phrase:802 DB:link_type/long_link_phrase:742
 #: DB:link_type/long_link_phrase:740 DB:link_type/long_link_phrase:741
@@ -6122,7 +6143,7 @@ msgstr "página de compra por correo para"
 
 #: DB:link_type/link_phrase:913
 msgid "mail-order purchase page for the score of"
-msgstr ""
+msgstr "página de compra por correo para la partitura de"
 
 #: DB:link_type/name:798
 msgid "main performer"
@@ -6433,13 +6454,13 @@ msgstr "número"
 #: DB:link_type/name:745 DB:link_type/name:782 DB:link_type/name:183
 #: DB:link_type/name:363 DB:link_type/name:287
 msgid "official homepage"
-msgstr ""
+msgstr "página oficial"
 
 #: DB:link_type/reverse_link_phrase:745 DB:link_type/reverse_link_phrase:782
 #: DB:link_type/reverse_link_phrase:183 DB:link_type/reverse_link_phrase:219
 #: DB:link_type/reverse_link_phrase:363
 msgid "official homepage for"
-msgstr "página oficial de"
+msgstr "página oficial para"
 
 #: DB:link_type/link_phrase:745 DB:link_type/link_phrase:782
 #: DB:link_type/link_phrase:183 DB:link_type/link_phrase:219
@@ -6461,7 +6482,7 @@ msgstr ""
 
 #: DB:link_type/reverse_link_phrase:185
 msgid "online community page for"
-msgstr "página de comunidad online de"
+msgstr "comunidad online para"
 
 #: DB:link_type/link_phrase:841 DB:link_type/link_phrase:221
 #: DB:link_type/link_phrase:660 DB:link_type/name:841 DB:link_type/name:221
@@ -6628,13 +6649,13 @@ msgstr ""
 #: DB:link_type/link_phrase:898 DB:link_type/link_phrase:899
 #: DB:link_type/link_phrase:897
 msgid "patronage page"
-msgstr ""
+msgstr "página de mecenazgo"
 
 #: DB:link_type/reverse_link_phrase:901 DB:link_type/reverse_link_phrase:900
 #: DB:link_type/reverse_link_phrase:898 DB:link_type/reverse_link_phrase:899
 #: DB:link_type/reverse_link_phrase:897
 msgid "patronage page for"
-msgstr ""
+msgstr "página de mecenazgo para"
 
 #: DB:link_type/link_phrase:34 DB:link_type/link_phrase:122
 #: DB:link_type/name:34 DB:link_type/name:122 DB:link_type/name:278
@@ -7314,7 +7335,7 @@ msgstr ""
 #: DB:link_type/reverse_link_phrase:811 DB:link_type/reverse_link_phrase:816
 #: DB:link_type/reverse_link_phrase:817 DB:link_type/reverse_link_phrase:938
 msgid "setlist.fm page for"
-msgstr ""
+msgstr "página en setlist.fm para"
 
 #: DB:link_type/name:811 DB:link_type/name:816 DB:link_type/name:817
 #: DB:link_type/name:938
@@ -7368,7 +7389,7 @@ msgstr "redes sociales"
 #: DB:link_type/reverse_link_phrase:218 DB:link_type/reverse_link_phrase:429
 #: DB:link_type/reverse_link_phrase:192
 msgid "social networking page for"
-msgstr "página en una red social de"
+msgstr "página en una red social para"
 
 #: DB:link_attribute_type/name:1351
 msgid "solfeggio"
@@ -7426,7 +7447,7 @@ msgstr ""
 
 #: DB:link_type/link_phrase:997 DB:link_type/link_phrase:194
 msgid "stream for free"
-msgstr "Escucha gratis"
+msgstr "streaming gratuito"
 
 #: DB:link_type/link_phrase:268 DB:link_type/link_phrase:85
 msgid "stream {video} for free"
@@ -7435,21 +7456,21 @@ msgstr "streaming gratuito {video:del vídeo}"
 #: DB:link_type/name:978 DB:link_type/name:980 DB:link_type/name:1005
 #: DB:link_type/name:979
 msgid "streaming"
-msgstr ""
+msgstr "streaming"
 
 #: DB:link_type/link_phrase:978 DB:link_type/link_phrase:980
 #: DB:link_type/link_phrase:1005 DB:link_type/link_phrase:979
 msgid "streaming page"
-msgstr ""
+msgstr "página de streaming"
 
 #: DB:link_type/reverse_link_phrase:978 DB:link_type/reverse_link_phrase:980
 #: DB:link_type/reverse_link_phrase:1005 DB:link_type/reverse_link_phrase:979
 msgid "streaming page for"
-msgstr ""
+msgstr "página de streaming para"
 
 #: DB:link_type/link_phrase:847 DB:link_type/reverse_link_phrase:923
 msgid "students"
-msgstr "Estudiantes"
+msgstr "estudiantes"
 
 #: DB:link_type/link_phrase:923 DB:link_type/name:923
 #: DB:link_type/long_link_phrase:923
